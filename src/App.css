@@ -3,6 +3,7 @@
   background-color: black;
 }
 
+
 .title{
   font-size: 4vmin;
   color: #F3EFE0;
@@ -66,6 +67,28 @@
   font-style: normal;
 }
 
+@media (prefers-color-scheme: dark) {
+  .App-header {
+    background-color: #2c2c2c;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+  
+  .App-body{
+    background-color: #000000;
+    min-height: 86vh;
+    padding: 1vh;
+    color: #F3EFE0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+}
 .App-link {
   color: #F3EFE0;
   text-decoration: underline;
@@ -75,11 +98,20 @@
   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(60deg);
-  }
+.welcome-title {
+  font-size: 10vmin;
+  color: #F3EFE0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.description {
+  font-size: 3vmin;
+  color: #F3EFE0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
