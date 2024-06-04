@@ -9,6 +9,7 @@ const DarkMode = () => {
         document.querySelector("body").setAttribute("data-theme", "light");
     };
     const toggleTheme = (e) => {
+        console.log("clicked")
         if (e.target.checked) {
             setDarkMode();
         } else {
@@ -18,15 +19,12 @@ const DarkMode = () => {
 
     return (
         <div className="theme-button">
-            <input 
-                className="theme-mode_input"
-                type="checkbox"
-                id="theme-mode-toggle"
+            <button
+                className="theme-switcher-button"
                 onChange={toggleTheme}
-            />
-            <label>
-                theme
-            </label>
+            >
+                Switch theme
+            </button>
         </div>
     )
 }

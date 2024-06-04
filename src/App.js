@@ -14,25 +14,27 @@ function App() {
 
           </div>
           <div className='nav-right-elements'>
-            <a href="#" className='Nav-link'>Home</a>
+            <a href="/" className='Nav-link'>Home</a>
             <a href="#" className='Nav-link'>Projects</a>
             <a href="#" className='Nav-link'>About me</a>
             <DarkMode />
-
           </div>
         </div>
       </header>
       <body className='App-body'>
-
-        <h2 className='welcome-title'>Welcome to my site.</h2>
-        <p className='description'>Hello, my name is Angel Tapia Ramirez. I am a recently graduated
-          engineer in software development and management with a great
-          interest in technological innovations and the software development
-          industry.</p>
-        <div className='social-container'>
-          <SocialIcons />
+        <div>
+          <h2 className='welcome-title'>Welcome to my site.</h2>
+          <p className='description'>Hello, my name is Angel Tapia Ramirez. I am a recently graduated
+            engineer in software development and management with a great
+            interest in technological innovations and the software development
+            industry.</p>
+          <div className='social-container'>
+            <SocialIcons />
+          </div>
         </div>
-        <Abackground />
+        <div>
+          AAAAAAAAAAAAAAAAAAAAA
+        </div>
       </body>
     </div>
   );
