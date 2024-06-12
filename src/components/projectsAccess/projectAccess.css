@@ -1,0 +1,18 @@
+.projects{
+    background-color: #ffffff1e;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vmin;
+    border-radius: 3vh;
+    min-width: 30%;
+}
+
+.project-item{
+    color: beige;
+    font-size: 4vmin;
+    padding: 2vmin;
+    font-weight: 100;
+    
+}
